@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "183506414498",
+    "project_id": "pharmacoty-cd6ce",
+    "storage_bucket": "pharmacoty-cd6ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183506414498:android:bd4fed96ac17296ddb20fb",
+        "android_client_info": {
+          "package_name": "com.example.pharmacoty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaAIzNcDhTWk6bNegf_JXj9tcAwCqfy_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

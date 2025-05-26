@@ -3,8 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:pharmacoty/widget/drawer.header.dart';
 import 'package:pharmacoty/widget/drawer.item.dart';
 
-class CustomDrawerLabo extends StatelessWidget {
-  const CustomDrawerLabo({super.key});
+class CustomDrawerMed extends StatelessWidget {
+  const CustomDrawerMed({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class CustomDrawerLabo extends StatelessWidget {
           DrawerItem(
             title: "Accueil",
             itemIcon: const Icon(Icons.home),
-            route: "/homelabo",
+            route: "/homemed",
           ),
           const Divider(height: 9, color: Colors.green),
           DrawerItem(

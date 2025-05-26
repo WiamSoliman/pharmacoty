@@ -97,9 +97,13 @@ class _LoginScreenState extends State<LoginScreen> {
       backgroundColor: const Color(0xFFF9F9F9),
       body: Center(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 24.0),
           child: Column(
             children: [
+              Image.asset(
+                'assets/pharmacoty.png',
+                width: 200, // largeur
+                height: 200, // hauteur
+              ),
               const Text(
                 "Bienvenue sur Pharmacoty",
                 style: TextStyle(
@@ -143,7 +147,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               const SizedBox(height: 24),
               ElevatedButton(
-                onPressed: isLoading ? null : _login, // ✅ Appel fonctionnel
+                onPressed: isLoading ? null : _login, // Appel fonctionnel
                 style: ElevatedButton.styleFrom(
                   minimumSize: const Size(double.infinity, 50),
                   backgroundColor: Theme.of(context).primaryColor,

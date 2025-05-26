@@ -16,7 +16,7 @@ class CustomDrawerPatient extends StatelessWidget {
           DrawerItem(
             title: "Accueil",
             itemIcon: const Icon(Icons.home),
-            route: "/home",
+            route: "/homepa",
           ),
           const Divider(height: 9, color: Colors.green),
           DrawerItem(

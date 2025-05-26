@@ -13,11 +13,11 @@ class LaboHomeScreen extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Theme.of(context).primaryColor,
+        foregroundColor: Colors.white,
         centerTitle: true,
       ),
       drawer: const CustomDrawerLabo(), // Drawer spécifique labo
       body: Container(
-        padding: const EdgeInsets.all(16),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

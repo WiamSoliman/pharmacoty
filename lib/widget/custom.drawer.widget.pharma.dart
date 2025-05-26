@@ -16,13 +16,13 @@ class CustomDrawerPharma extends StatelessWidget {
           DrawerItem(
             title: "Accueil",
             itemIcon: const Icon(Icons.home),
-            route: "/home",
+            route: "/homepharma",
           ),
           const Divider(height: 9, color: Colors.green),
           DrawerItem(
-            title: "Scanner Produit",
+            title: "Scanner CNSS",
             itemIcon: const Icon(Icons.qr_code_scanner),
-            route: "/scan",
+            route: "/scan-cnss",
           ),
           const Divider(height: 9, color: Colors.green),
           DrawerItem(

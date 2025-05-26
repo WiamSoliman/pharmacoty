@@ -12,8 +12,7 @@ class SearchAndFilterBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(12),
+    return Container(
       child: Row(
         children: [
           // Champ de recherche
